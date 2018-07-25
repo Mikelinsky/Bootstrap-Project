@@ -22,7 +22,7 @@ body {
 }
 /*jumbotron*/
 .jumbotron {
-	background-image: url("https://static.pexels.com/photos/96938/pexels-photo-96938.jpeg");
+	background-image: url("images/cat_background.jpg");
 	background-size: cover;
 	background-position: center;
 }
