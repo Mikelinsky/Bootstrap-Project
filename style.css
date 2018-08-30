@@ -1,6 +1,6 @@
 body {
-	padding-top: 50px;
 	background-color: #d4dce4;
+	padding-top: 50px;
 }
 /*navbar*/
 .navbar-collapse {
@@ -22,9 +22,10 @@ body {
 }
 /*jumbotron*/
 .jumbotron {
-	background-image: url("images/cat_background.jpg");
-	background-size: cover;
+	background-image: url("images/background.jpg");
 	background-position: center;
+	background-size: cover;
+	min-height: 60vh;
 }
 .myjumbo h1 {
 	color: #fff;
@@ -38,8 +39,8 @@ body {
 }
 /*media*/
 .mymedia {
-	margin-bottom: 30px;
 	background-color: #fff;
+	margin-bottom: 30px;
 	padding: 30px;
 }
 .media-left {
@@ -56,14 +57,14 @@ body {
 }
 /*footer*/
 .myicon {
-	border-radius: 50%;
-	height: 45px;
-	width: 45px;
 	background-color: #3e79b6;
+	border-radius: 50%;
 	border: none;
-	margin: 5px;
 	color: #fff;
 	font-size: 25px;
+	height: 45px;
+	margin: 5px;
+	width: 45px;
 }
 .myicon:hover {
 	color: #01275a;
@@ -71,22 +72,26 @@ body {
 
 }
 .myfooter {
-	padding: 30px;
 	background-color: #58667E;
-	margin: 30px auto;
 	color: #fff;
+	margin: 30px auto;
+	padding: 30px;
+}
+
+.milk-header {
+	text-align: center;
 }
 
 .copyrights {
 	background-color: #363d49;
-	height: 30px;
-	border: 1px solid #cacaca;
 	border-bottom: 0;
-	border-right: 0;
 	border-left: 0;
-	padding: 5px;
-	margin-top: 20px;
+	border-right: 0;
+	border: 1px solid #cacaca;
 	color: #fff;
+	height: 30px;
+	margin-top: 20px;
+	padding: 5px;
 }
 .copyrights a {
 	text-decoration: none;
@@ -107,6 +112,9 @@ body {
 	.open 
 	.dropdown-menu > li > a:hover {
 		color: #3d9de8;
+	}
+	.milk-img {
+		margin-bottom: 5rem;
 	}
 }
 
